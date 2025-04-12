@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav>
+            
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="skills.html">Skills</a></li>
+        </ul>
+    </nav>
+</header>
+<body style="background-color:lightcyan;">
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Let's work together! Feel free to reach out.</p>
+
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <form class="contact-form" action="/submit-contact" method="post">
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> rupakk746@gmail.com.com</p>
+                    <p><strong>Phone:</strong> 6299361809</p>
+                    <p><strong>Location:</strong> jaipur, India</p>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rupak-kumar-1b2a212ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon"><img src="img/linkedin.jpg" alt="img-linkedin"></a>
+                        <a href="https://github.com/Rupak-123-kumar" class="social-icon"><img src="img/github.jpg" alt="img-github"></a>
+                        <a href="https://www.instagram.com/invites/contact/?igsh=n44fg1rw0r7b&utm_content=f42jjrm" class="social-icon"><img src="img/image.png" alt="img-instagram"></a>
+                        <a href="https://whatsapp.com/dl/" class="social-icon"><img src="img/whatsapp.jpg" alt="img-whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
