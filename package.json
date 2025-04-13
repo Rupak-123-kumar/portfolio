@@ -2,8 +2,6 @@
   "name": "portfolio",
   "version": "1.0.0",
   "main": "scripts.js",
-  "homepage": "https://github.com/Rupak-123-kumar/My-Portfolio",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
